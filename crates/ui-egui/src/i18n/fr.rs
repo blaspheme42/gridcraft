@@ -2225,6 +2225,13 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "VBA modules and other non-worksheet sheets were skipped." => {
             "Les modules VBA et les autres feuilles qui ne sont pas des feuilles de calcul ont été ignorés."
         }
+        "Record Macro" => "Enregistrer une macro",
+        "Stop Recording" => "Arrêter l’enregistrement",
+        "Use Relative References" => "Utiliser les références relatives",
+        "Run\nMacro" => "Exécuter la macro",
+        "Macros…" => "Macros…",
+        "Recording" => "Enregistrement",
+        "New Macro" => "Nouvelle macro",
         _ => return None,
     })
 }

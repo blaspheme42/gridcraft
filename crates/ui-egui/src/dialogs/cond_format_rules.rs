@@ -1,4 +1,4 @@
-use super::*;
+use super::{Json, SheetApp, json};
 
 pub(super) fn manage_rules(app: &mut SheetApp, ui: &mut egui::Ui) {
     let lang = app.ui.language;
